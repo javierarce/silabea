@@ -7,15 +7,19 @@ Forked from [https://github.com/ncofrem/silabajs](https://github.com/ncofrem/sil
 
 ## Installation
 
-  `npm install @javier/silabea`
+  `yarn add silabea`
+
+  or
+
+  `npm install silabea`
 
 ## Usage
 
 ```javascript
-let silabas = require('@javier/silabas');
-let information = silabas.getSilabas('planetoides');
+let silabea = require('silabea');
+let silabas = silabea.getSilabas('planetoides');
 
-console.log(information);
+console.log(silabas);
 ```
 
 Output should be:
